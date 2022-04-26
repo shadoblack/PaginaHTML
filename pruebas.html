@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Probando con HTML</title>
+    </head>
+    <body>
+        <h1>Prueba de HTML</h1>
+        <h2>Esto sería una bienvenida a la web</h2>
+        <p>
+            esto sería un párrafo.
+        </p>
+        <p>
+            Y esto sería otro párrafo. Además, hacemos un <br/>salto de linea.
+        </p>
+        <p>
+            esto sería un párrafo. Y además ahora saltaremos de línea<hr/>pero pintando.
+        </p>
+        <h3>Aqui hacemos un tercer Título</h3>
+        <p>
+            <strong>esto sería un párrafo. Pero en negrita.</strong>
+        </p>
+        <p>
+            <em>esto sería un párrafo. Pero en cursiva</em>
+        </p>
+        <p>
+            esto sería un párrafo.<span id="resaltado" class="rojo amarillo"> Pero resaltado.</span>
+        </p>
+        <p>
+            <i>esto sería un párrafo. Pero en cursiva(otra manera).</i>
+        </p>
+        <p>
+            <blockquote><em>esto sería un párrafo. Pero con una tabulación y espaciado especial. Se usa para remarcar citas.</em></blockquote>
+            <h3>lista ordenada</h3>
+            <ol>
+                <li>prueba de lista 1</li>
+                <li>prueba de lista 2</li>
+                <li>prueba de lista 3</li>
+                <li>prueba de lista 4</li>
+                <li>prueba de lista 5</li>
+            </ol>
+            <h3>lista desordenada</h3>
+            <ul>
+                <li>prueba de lista 1</li>
+                <li>prueba de lista 2</li>
+                <li>prueba de lista 3</li>
+                <li>prueba de lista 4</li>
+                <li>prueba de lista 5</li>
+            </ul>
+        </p>
+        <h4>prueba de imagen</h4>
+        <img src="img\descarga.jpg" alt="no carga la imagen del avión" title="foto F-35" width="650px" height="650px" />
+
+        <h4>tablas</h4>
+        <table border="1">
+            <tr>fila 1
+                <td> esto es una columna</td>
+                <td> esto es una segunda  columna</td>
+                <td> esto es una tercera columna</td>
+            </tr>
+            <tr>fila 2
+                <td colspan="3"> esto es una columna de tamaño 3 </td>
+                <td> esto es una segunda  columna</td>
+                <td> esto es una tercera columna</td>
+            </tr>
+        </table>
+        <h3>formularios</h3>
+        <form >
+            <p>
+            <label for="nombreDelCampo">nombre del campo</label>
+            <input type="text" name ="nombreDelCampo" placeholder="relleno del formulario"/>
+
+            <label for="descripcion"> descripcion con caja de texto</label>
+            <textarea name="descripcion"></textarea> <br/>
+
+            <input type="radio" name="botones" value="boton1">boton1 <br/>
+            <input type="radio" name="botones" value="boton2">boton2 <br/>
+            <input type="radio" name="botones" value="boton3">boton3 <br/>
+
+            <select>
+                <option value="1">opcion 1</option>
+                <option value="2">opcion 2</option>
+                <option value="3">opcion 3</option>
+            </select>
+
+            <input type="submit" value="enviar formulario">
+        </p>
+        </form>
+    </body>
+</html>
